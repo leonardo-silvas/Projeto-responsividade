@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Oswald:wght@200..700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+ 
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", serif;
+}
+.header-main{
+    margin-top: 38px;
+    margin-left: 52px;
+}
+.link-header{
+    margin-right: 32px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+    cursor: pointer;
+}
+#button-header{
+    background: #4CB538;
+    color: #ffff;
+    width: 122px;
+    height:51px;
+    border: none;
+    border-radius:8px;
+    cursor: pointer;
+}
+.logo-image{
+    margin-top: 112px;
+    margin-left: 121px;
+    width: 482px;
+    
+}
+div{
+    display: inline-block;
+    margin-left: 82px;
+}
+h1{
+    color: #161A49;
+    font-size: 62px;
+    font-weight: 700;
+    line-height: 82px;
+    
+    width: 493px;
+}
+p{
+    color: #4B505A;
+    margin-top: 20px;
+    width: 492px;
+    height: 99px;
+}
+.link-learn-more{
+    color: #6FBF44;
+    font-size: 18px;
+    font-weight: 500;
+    letter-spacing: 1px;
+}
+@media screen and (max-width:1184px){
+    .link-header{
+        display: none;
+    }
+    #button-header{
+        position: fixed;
+        right: 30px;
+        top: 24px;
+    }
+    .logo-image{
+        width: 312px;
+        position:absolute;
+        top: 65%;
+        align-items: center;
+        margin: 0 0 50px 50px;
+    }
+    h1{
+        font-size: 30px;
+        font-weight: 700;
+        line-height: 30px;
+        align-items: center;
+        width: 270px;
+        height: 60px;
+    }
+    p{
+        width: 304px;
+        height: 134px;
+    }
+    .link-learn-more{
+        
+        width: 112px;
+        height: 27px;
+        
+    }
+    div{
+
+        position: absolute;
+        top: 150px;
+        text-align: center;
+        margin: 50px;
+        
+        
+        
+    }
+    main{
+        width: 50%;
+        height: 50%;
+        
+    }
+
+
+}
